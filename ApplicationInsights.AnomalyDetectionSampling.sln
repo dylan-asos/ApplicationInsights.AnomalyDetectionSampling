@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Web.Api", "Test.Web.Api\Test.Web.Api.csproj", "{7467FFB5-3112-4B4D-AE9B-E3FFCD43734E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{A0A683FF-5A16-4065-A206-418FC312647E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationInsights.AnomalyDetectionSampling", "ApplicationInsights.AnomalyDetectionSampling\ApplicationInsights.AnomalyDetectionSampling.csproj", "{1595E279-2C8C-4BBE-8DC1-C4A3E48EA7B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7467FFB5-3112-4B4D-AE9B-E3FFCD43734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7467FFB5-3112-4B4D-AE9B-E3FFCD43734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7467FFB5-3112-4B4D-AE9B-E3FFCD43734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7467FFB5-3112-4B4D-AE9B-E3FFCD43734E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1595E279-2C8C-4BBE-8DC1-C4A3E48EA7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1595E279-2C8C-4BBE-8DC1-C4A3E48EA7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1595E279-2C8C-4BBE-8DC1-C4A3E48EA7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1595E279-2C8C-4BBE-8DC1-C4A3E48EA7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F582895A-F342-4483-B469-9B223BA16A76}
+	EndGlobalSection
+EndGlobal

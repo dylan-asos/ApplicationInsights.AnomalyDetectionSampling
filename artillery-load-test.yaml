@@ -1,0 +1,29 @@
+config:
+  target: "http://localhost:63215"
+  phases:
+    - duration: 300
+      arrivalRate: 5
+    - duration: 120
+      arrivalRate: 5
+      rampTo: 50
+    - duration: 120
+      arrivalRate: 20
+scenarios:
+  - name: "Endpoints exercises"
+    flow:
+      - get:
+          url: "/api/values"
+      - get:
+          url: "/api/values/slow"
+      - get:
+          url: "/api/values/exception"
+      - get:
+          url: "/api/values/1"          
+      - get:
+          url: "/api/values/badrequest"
+      - get:
+          url: "/api/values/servererror"
+      - get:
+          url: "/api/values/long-dependency"          
+      - get:
+          url: "/api/values/test-event"
